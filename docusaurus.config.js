@@ -13,10 +13,14 @@ module.exports = {
     "https://fonts.googleapis.com/icon?family=Material+Icons",
   ],
   themeConfig: {
-    hideableSidebar: true,
     announcementBar: {
       id: 'announcementBar-2', // Increment on change
       content: `⭐️ If you like Apiato, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/apiato/apiato">GitHub</a>`,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
     },
     navbar: {
       title: 'Apiato',
