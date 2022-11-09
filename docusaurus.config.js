@@ -128,7 +128,8 @@ module.exports = {
     },
     algolia: {
       // Apiato DocSearch Config File @ https://github.com/algolia/docsearch-configs/blob/master/configs/apiato.json
-      apiKey: '5a14b34a43f1bba00c8f096d48577fa8',
+      appId: 'OZKEC9E27Y',
+      apiKey: '94a1a71e8682dac72c8708fa75280e2a',
       indexName: 'apiato',
       contextualSearch: true,
       searchParameters: {},
